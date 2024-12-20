@@ -8,7 +8,7 @@
 
     <router-link to="/">
         <v-btn :class="{'active': isActive('/')}">
-            <v-icon left>mdi-home</v-icon>
+            <v-icon size="25" left>mdi-home</v-icon>
             <div style="font-family: 'Poppins', sans-serif; font-weight: 400;">Home</div>
         </v-btn>
     </router-link>
@@ -17,7 +17,7 @@
 
     <router-link to="/about">
         <v-btn :class="{'active': isActive('/about')}">
-            <v-icon left>mdi-information</v-icon>
+            <v-icon size="25" left>mdi-information</v-icon>
             <div style="font-family: 'Poppins', sans-serif; font-weight: 400;">About</div>
         </v-btn>
     </router-link>
@@ -35,7 +35,7 @@
 
     <router-link to="/quality">
         <v-btn :class="{'active': isActive('/quality')}">
-            <v-icon left>mdi-water-check</v-icon>
+            <v-icon size="25" left>mdi-water-check</v-icon>
             <div style="font-family: 'Poppins', sans-serif; font-weight: 400;">Water Quality</div>
         </v-btn>
     </router-link>
@@ -43,13 +43,13 @@
     <v-divider :thickness="1" color="black" vertical></v-divider>
 
     <v-btn :class="{'active': isActive('/tab3')}">
-        <v-icon left>mdi-star</v-icon>
-        <div style="font-family: 'Poppins', sans-serif; font-weight: 400;"> Tab 3</div>
+        <v-icon left>mdi-waves</v-icon>
+        <div style="font-family: 'Poppins', sans-serif; font-weight: 400;"> Flood Management</div>
     </v-btn>
     <v-divider :thickness="1" color="black" vertical></v-divider>
-    <v-btn :class="{'active': isActive('/tab3')}">
+    <v-btn :class="{'active': isActive('/tab4')}">
         <v-icon left>mdi-cloud</v-icon>
-        <div style="font-family: 'Poppins', sans-serif; font-weight: 400;"> Tab 4</div>
+        <div style="font-family: 'Poppins', sans-serif; font-weight: 400;"> Solid Waste Management</div>
     </v-btn>
     <v-divider :thickness="1" color="black" vertical></v-divider>
 
