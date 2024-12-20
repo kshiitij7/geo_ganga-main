@@ -26,7 +26,7 @@
 
     <router-link to="/basin">
         <v-btn :class="{'active': isActive('/basin')}">
-            <v-icon left>mdi-leaf</v-icon>
+            <v-icon size="25" left>mdi-leaf</v-icon>
             <div style="font-family: 'Poppins', sans-serif; font-weight: 400;">Ganga Basin</div>
         </v-btn>
     </router-link>
